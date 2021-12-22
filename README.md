@@ -13,12 +13,10 @@ Install the HtmlSanitizer NuGet package. Then:
 
 ```C#
 var sanitizer = new HtmlSanitizer();
-var html = @"<script>alert('xss')</script><div onload=""alert('xss')"""
-    + @"style=""background-color: test"">Test<img src=""test.gif"""
-    + @"style=""background-image: url(javascript:alert('xss')); margin: 10px""></div>";
-var sanitized = sanitizer.Sanitize(html, "http://www.example.com");
-Assert.That(sanitized, Is.EqualTo(@"<div style=""background-color: test"">"
-    + @"Test<img style=""margin: 10px"" src=""http://www.example.com/test.gif""></div>"));
+var dirtyHtml = "<p class='MsoHeader' style='line-height: normal; -ms-layout-grid-mode: char; tab-stops: 24.0pt;'>&nbsp;</p>";
+var clean = sanitizer.Sanitize(dirtyHtml);
+
+//result = "<p style="line-height: normal">&nbsp;</p>"
 ```
 There's an [online demo](http://xss.ganss.org/), plus there's also a [.NET Fiddle](https://dotnetfiddle.net/892nOk) you can play with.
 
