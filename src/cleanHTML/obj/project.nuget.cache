@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dGBMV0c3KVhmY8W8RCiMUVCQRunaM40iGwTzo2GLGUu5kkyG/mmEG8bvUWgERDPE5fWLNcxUN5vnsS4ynZxhqw==",
+  "success": true,
+  "projectFilePath": "D:\\Progmming\\sideproject\\cleanHTML\\cleanHTML\\cleanHTML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yang\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\yang\\.nuget\\packages\\anglesharp.css\\0.14.2\\anglesharp.css.0.14.2.nupkg.sha512",
+    "C:\\Users\\yang\\.nuget\\packages\\htmlsanitizer\\5.0.376\\htmlsanitizer.5.0.376.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
